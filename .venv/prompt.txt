@@ -2,7 +2,7 @@
 
 请生成一个Python工具类，实现以下功能：
 
-文件路径：C:\Users\wzh\Desktop\aiGeneratedCode\string_utils.py
+文件路径：D:/projects/string_utils.py
 文件名称：string_utils.py
 
 功能要求：

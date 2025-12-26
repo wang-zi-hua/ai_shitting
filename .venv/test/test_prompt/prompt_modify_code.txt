@@ -1,0 +1,55 @@
+# 代码修改示例
+
+请修改以下代码文件：
+
+文件路径：D:/projects/calculator.py
+文件名称：calculator.py
+
+## 当前代码内容：
+```python
+class Calculator:
+    def __init__(self):
+        pass
+
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+    def multiply(self, a, b):
+        return a * b
+
+    def divide(self, a, b):
+        return a / b
+```
+
+## 修改要求：
+
+1. **添加新功能**：
+   - 添加幂运算方法 `power(a, b)`，计算a的b次方
+   - 添加开方运算方法 `sqrt(a)`，计算a的平方根
+   - 添加取模运算方法 `mod(a, b)`，计算a除以b的余数
+
+2. **改进错误处理**：
+   - 在divide方法中添加除零检查
+   - 在sqrt方法中添加负数检查
+   - 所有方法添加类型检查，确保输入是数字
+
+3. **添加文档字符串**：
+   - 为每个方法添加详细的docstring
+   - 说明参数类型、返回值和可能的异常
+
+4. **添加单元测试**：
+   - 创建测试方法或单独的测试类
+   - 覆盖所有运算方法
+   - 测试异常情况
+
+5. **代码风格改进**：
+   - 添加类型注解
+   - 使用更清晰的变量名
+   - 添加类级别的文档字符串
+
+## 重要提示：
+
+请生成完整的修改后代码，不要只输出修改的部分。代码应该包含所有原始功能加上新增的功能。

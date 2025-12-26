@@ -1,0 +1,18 @@
+# Moonshot AI 编程辅助工具依赖
+
+# 核心依赖
+requests>=2.25.0
+
+# 可选依赖（用于语法验证）
+# Java语法验证（可选）：需要安装JDK
+# C/C++语法验证（可选）：需要安装gcc/g++
+# JavaScript/TypeScript验证（可选）：需要安装Node.js
+# Go语法验证（可选）：需要安装Go
+# Rust语法验证（可选）：需要安装Rust
+
+# 开发依赖（可选）
+pytest>=6.0.0
+pytest-cov>=2.10.0
+black>=21.0.0
+flake8>=3.8.0
+mypy>=0.800

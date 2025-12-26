@@ -1,0 +1,21 @@
+# Moonshot AI 编程辅助工具 - 默认Prompt示例
+
+请生成一个Python工具类，实现以下功能：
+
+文件路径：C:\Users\wzh\Desktop\aiGeneratedCode\string_utils.py
+文件名称：string_utils.py
+
+功能要求：
+1. 字符串处理工具类（StringUtils）
+2. 包含以下方法：
+   - reverse_string(s): 反转字符串
+   - is_palindrome(s): 判断是否为回文
+   - count_words(s): 统计单词数
+   - capitalize_words(s): 将每个单词首字母大写
+   - remove_punctuation(s): 移除标点符号
+   - find_most_frequent_word(s): 找出最频繁的单词
+3. 添加类型注解
+4. 包含文档字符串
+5. 添加单元测试
+
+请生成完整的可运行代码。

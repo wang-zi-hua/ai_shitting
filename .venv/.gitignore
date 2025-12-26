@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+moonshot_assistant.log
+
+# Backup files
+.backup/
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+ai_temp_response.txt
+
+# Coverage
+.coverage
+htmlcov/
+coverage_html/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# API keys (never commit!)
+*.key
+api_keys.py
+
+# Generated files
+*.pyc
+__pycache__/
+
+# Test files
+test_output/
+test_files/
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Cache
+.cache/
+cache/
+
+# Runtime
+*.pid
+*.sock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/

@@ -1,0 +1,77 @@
+# 多文件生成示例 - 简单的博客系统
+
+请生成一个简单的博客系统，包含以下文件：
+
+## 1. Flask应用主文件
+
+文件路径：D:/projects/blog/app.py
+文件名称：app.py
+
+功能：
+- 创建Flask应用
+- 定义文章模型（Article）
+- 实现RESTful API：
+  - GET /articles - 获取所有文章
+  - GET /articles/<id> - 获取单篇文章
+  - POST /articles - 创建新文章
+  - PUT /articles/<id> - 更新文章
+  - DELETE /articles/<id> - 删除文章
+- 使用SQLite数据库存储数据
+- 包含数据验证和错误处理
+
+## 2. HTML模板文件
+
+文件路径：D:/projects/blog/templates/index.html
+文件名称：index.html
+
+功能：
+- 博客首页，显示所有文章列表
+- 响应式设计，适配移动端
+- 包含创建新文章的表单
+- 使用Bootstrap样式
+
+## 3. CSS样式文件
+
+文件路径：D:/projects/blog/static/style.css
+文件名称：style.css
+
+功能：
+- 自定义博客样式
+- 文章卡片样式
+- 表单美化
+- 响应式布局
+
+## 4. JavaScript交互文件
+
+文件路径：D:/projects/blog/static/app.js
+文件名称：app.js
+
+功能：
+- 使用Fetch API与后端交互
+- 动态加载文章列表
+- 实现文章的增删改查
+- 表单验证和提交
+- 错误处理
+
+## 5. 配置文件
+
+文件路径：D:/projects/blog/config.py
+文件名称：config.py
+
+功能：
+- Flask配置
+- 数据库配置
+- 密钥配置
+- 环境变量处理
+
+## 6. 数据库模型文件
+
+文件路径：D:/projects/blog/models.py
+文件名称：models.py
+
+功能：
+- SQLAlchemy模型定义
+- Article模型
+- 数据库操作辅助方法
+
+请确保所有文件可以协同工作，生成完整的可运行代码。
